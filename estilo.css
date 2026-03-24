@@ -122,3 +122,74 @@ footer {
     padding: 5px;
     margin-top: 32px;
 }
+
+.post-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.post-completo {
+    padding: 25px;
+}
+
+.post-completo h1 {
+    background-image: linear-gradient(90deg, var(--cor3), var(--cor1));
+    margin: -25px -25px 15px -25px;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    font-size: 2em;
+    font-family: var(--fonte-destaque);
+    color: white;
+    margin-bottom: 15px;
+}
+
+.post-completo h2 {
+    font-size: 1.3em;
+    font-family: var(--fonte-destaque);
+    color: var(--cor3);
+    margin-top: 25px;
+    margin-bottom: 8px;
+    border-left: 4px solid var(--cor1);
+    padding-left: 10px;
+}
+
+.post-completo p {
+    text-indent: 30px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.post-completo a {
+    background-color: var(--cor1);
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--fonte-destaque);
+    color: black;
+    border-radius: 10px;
+}
+
+.post-completo a:hover {
+    background-color: var(--cor4);
+    color: white;
+    transition: 0.3s;
+}
+
+.post-completo .data {
+    font-size: 0.9em;
+    color: gray;
+    text-indent: 0;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.post-completo .seo {
+    font-size: 0.85em;
+    color: #555;
+    background-color: #f4f4f4;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    text-indent: 0;
+}   
